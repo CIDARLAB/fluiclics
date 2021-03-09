@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fluiclics"
+version = "0.1.0"
+description = "Microfluidic Design Rule Checking"
+authors = ["Leslie Leung <lhleung@bu.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy-stl = "^2.15.1"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
